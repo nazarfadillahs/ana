@@ -1,0 +1,44 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto Slab", serif;
+}
+
+.content {
+  width: 400px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+p {
+  font-size: 15px;
+}
+
+img {
+  width: 350px;
+}
+
+/* Mobile */
+@media screen and (max-width: 576px) {
+  .content {
+    width: 300px;
+    margin: auto;
+    margin-top: 20px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  img {
+    width: 300px;
+  }
+}
